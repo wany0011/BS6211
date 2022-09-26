@@ -1,0 +1,24 @@
+{
+  "data_file": {
+    "files": ["./result/batch1_2Frame/dump.npz"]
+  },
+  "image_proc": {
+    "ip_dir":     "./sample/batch1_2Frame/",
+    "op_dir":     "./result/batch1_2Frame/",
+    "op_npz_dir": "./result/batch1_2Frame/npz/",
+    "op_png_dir": "./result/batch1_2Frame/png/"
+  },
+  "log_file": "./result/log.txt",
+
+  "optimizer" : {
+    "seed": 17322625,
+    "epoch": 500,
+    "patience": 100,
+    "lr": 1e-4
+  },
+  "model" : {
+    "train_batch_size":25,
+    "validation_batch_size": 1
+  }
+}
+
